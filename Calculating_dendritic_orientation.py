@@ -158,6 +158,6 @@ def dendritic_polarplot(sine, cos, nbins, norm_ori_vec, DSI, Name):
 #   Name:           Name of the output .png file
 # 
 # 
-# norm_ori_vec, norm_pixel_values, DGI = Vector(96, 156, 'path/to/Example_Neuron.tif')
+# norm_ori_vec, norm_pixel_values, DGI = Vector(96, 156, 'path/to/Example_Neuron.tif', 50)
 # 
 # dendritic_polarplot(norm_pixel_values[:,0], norm_pixel_values[:,1], 16, norm_ori_vec, DGI, 'Example_Neuron')

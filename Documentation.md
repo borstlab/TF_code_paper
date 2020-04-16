@@ -1,11 +1,11 @@
 ## How to use the script
 * Download the Example_Neuron_tif
-    * Vector:
+    * Vector(x, y, image, int_thresh):
         - x:          x coordinate of dendritic branching point
         - y:          y coordinate of dendritic branching point
         - image:      path to image file used in the analysis
         - int_thresh: intensity threshold used to filter the image (usually between 0-255)
-    * dendritic_polarplot:
+    * dendritic_polarplot(sine, cos, nbins, norm_ori_vec, DSI, Name):
         - sine:           Sine coordinates used to bin the pixel values
         - cos:            Cosine coordinates used to bin the pixel values
         - nbins:          Number of bins used for the polar plot
